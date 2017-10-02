@@ -1675,7 +1675,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #351099 !important;
 		}
 
 	strong, b {
@@ -1691,7 +1691,7 @@
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2.5em;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
@@ -1896,8 +1896,8 @@
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				color: #351099;
+				border-color: #351099;
 			}
 
 			.icon.style2:active {
@@ -2177,8 +2177,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #f2849e;
-			box-shadow: inset 0 -1px 0 0 #f2849e;
+			border-bottom-color: #351099;
+			box-shadow: inset 0 -1px 0 0 #351099;
 		}
 
 	.select-wrapper {
@@ -2288,8 +2288,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f2849e;
-			box-shadow: 0 0 0 1px #f2849e;
+			border-color: #351099;
+			box-shadow: 0 0 0 1px #351099;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2552,7 +2552,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f2849e;
+				background-color: #351099;
 			}
 
 			input[type="submit"].special:active,
@@ -2560,7 +2560,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #ee5f81;
+				background-color: #351099;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2861,10 +2861,11 @@
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
-			letter-spacing: 0.35em;
+			letter-spacing: 0.25em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
 			text-transform: uppercase;
+			color: #351099;
 			display: inline-block;
 		}
 
@@ -2872,7 +2873,7 @@
 				display: inline-block;
 				vertical-align: middle;
 			}
-
+/*
 			#header .logo .symbol {
 				margin-right: 0.65em;
 			}
@@ -2882,7 +2883,7 @@
 					width: 2em;
 					height: 2em;
 				}
-
+*/
 		#header nav {
 			position: fixed;
 			right: 2em;
@@ -3215,12 +3216,12 @@
 				margin-bottom: 0;
 			}
 
-			#footer > .inner section:nth-child(1) {
+			#footer > .inner section:nth-child(2) {
 				width: calc(66% - 2.5em);
 				margin-right: 2.5em;
 			}
 
-			#footer > .inner section:nth-child(2) {
+			#footer > .inner section:nth-child(1) {
 				width: calc(33% - 2.5em);
 				margin-left: 2.5em;
 			}
