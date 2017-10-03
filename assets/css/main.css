@@ -3221,7 +3221,7 @@
 				margin-right: 2.5em;
 			}
 
-			#footer > .inner section:nth-child(1) {
+			#footer > .inner section:nth-child(0) {
 				width: calc(33% - 2.5em);
 				margin-left: 2.5em;
 			}
